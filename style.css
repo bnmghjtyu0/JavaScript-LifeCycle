@@ -1,0 +1,42 @@
+html,
+body {
+  font-size: 62.5%;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+
+.layout {
+  height: 100vh;
+  display: grid;
+  grid-template-areas: "left right";
+  grid-template-columns: 1fr 1fr;
+}
+
+.left {
+  height: 100vh;
+  grid-area: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.right {
+  grid-area: right
+}
