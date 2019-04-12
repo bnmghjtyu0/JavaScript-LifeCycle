@@ -1,5 +1,6 @@
 ## JavaScript 生命週期相關文章
 
+https://flaviocopes.com/javascript-async-defer/
 https://github.com/fi3ework/blog/issues/3
 
 ### 設置 loadScript
@@ -43,7 +44,7 @@ var loadScriptAsync = function(uri) {
       ;(async () => {
         const res = await axios.get('https://gank.io/api/random/data/%E7%A6%8F%E5%88%A9/1')
         const setLocalStroage = await localStorage.setItem('data', JSON.stringify(res.data.results))
-        const filter = await loadScriptAsync('./filter.js')
+        // const filter = await loadScriptAsync('./filter.js')
         const render = await renderReact()
       })()
     </script>
