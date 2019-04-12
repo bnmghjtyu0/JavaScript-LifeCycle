@@ -1,7 +1,7 @@
 ## JavaScript 生命週期相關文章
 
-https://flaviocopes.com/javascript-async-defer/
-https://github.com/fi3ework/blog/issues/3
+- https://flaviocopes.com/javascript-async-defer/
+- https://github.com/fi3ework/blog/issues/3
 
 ### 設置 loadScript
 
